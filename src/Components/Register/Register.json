@@ -1,0 +1,42 @@
+{
+    "fields": [
+      { "id": "name", "label": "First name", "type": "text" },
+      { "id": "lastname", "label": "Last name", "type": "text" },
+      { "id": "email", "label": "Email Address", "type": "email" },
+      { "id": "password", "label": "Password", "type": "password" },
+      { "id": "confirmpassword", "label": "Confirm Password", "type": "password" }
+    ]
+  }
+  {"pages":[{
+    "pageId":1,
+    "pageName":"homePage",
+    "title":"homePage",
+    "gallery":1,
+    "url":"/homePage"
+    
+},
+{
+    "pageId":2,
+    "pageName":"signIn",
+    "title":"signIn",
+    "url":"/signIn"
+    
+},
+{
+    "pageId":3,
+    "pageName":"Registor",
+    "title":"signUp",
+    "url":"/signUp"   
+},
+{
+    "pageId":4,
+    "pageName":"map",
+    "title":"map",
+    "url":"/map"   
+},
+{
+    "pageId":5,
+    "pageName":"map",
+    "title":"map",
+    "url":"/map"   
+}]}

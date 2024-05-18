@@ -1,0 +1,89 @@
+
+{
+    "pages": [
+      {
+        "id": "Register",
+        "fields": [
+          { "id": "name", "label": "First name:", "type": "text" },
+          { "id": "lastname", "label": "Last name:", "type": "text" },
+          { "id": "email", "label": "Email Address:", "type": "email" },
+          { "id": "password", "label": "Password:", "type": "password" },
+          { "id": "confirmpassword", "label": "Confirm Password:", "type": "password" },
+          {"id": "button", "buttonText": "Create an Account", "type": "button"}
+        ]
+      },
+      {
+        "id": "Login",
+        "fields": [
+          { "id": "email", "label": "Email Address", "type": "email" },
+          { "id": "password", "label": "Password", "type": "password" },
+          { "id": "checkbox", "checkboxText": "Remember me", "type": "checkbox"},
+          {"id": "button", "buttonText": "Log In", "type": "button"},
+          {"id": "forgot", "text": "Forgot your passwod?", "type": "text"},
+          {"id": "noAccount", "text": "Don't have an acount? Sign Up", "type": "text"},
+          {"id": "continue", "text": "Or continue with", "type": "text"}
+         
+
+
+        ]
+      },
+      {
+        "id": "Contactus",
+        "subtitle": "Have a question or need assistance? Reach out to us via the contact form below, We're eager to assist you.",
+        "fields": [
+          { "id": "name", "label": "Your Name", "type": "text" },
+          { "id": "email", "label": "Email Address", "type": "email" },
+          { "id": "message", "label": "Message", "type": "textarea" },
+          { "id": "button", "buttonText": "Submit", "type": "button" }
+        ]
+      },
+      {
+        "id": "AboutUs",
+        "title": "About Us!",
+        "fields": [
+          {
+            "title": " ",
+            "text": "We are committed to enhancing your travel experiences by offering comprehensive information and real-time assistance. Here's what you can expect when using our platform:"
+          },
+          {
+            "title": "Our Mission",
+            "text": "Our mission is to empower travelers to explore Israel with confidence and ease. We strive to provide detailed information on local attractions, restaurants, and activities to support your journey."
+          },
+          {
+            "title": "What We Offer",
+            "text": "Real-Time Assistance: Access up-to-date information on nearby places and activities to help you make informed decisions.\n\nUser Engagement: Share your experiences and insights with others through reviews, ratings, and recommendations."
+          },
+          {
+            "title": "Our Values",
+            "text": "Quality: We strive to provide accurate and reliable information to help you plan your trips.\n\nInnovation: We continually update our platform to offer the latest features and functionality.\n\nAccessibility: We believe in making travel accessible to everyone, regardless of their abilities or background.\n\nPrivacy and Security: We prioritize your data privacy and security, safeguarding your personal information at all times."
+          },
+          {
+            "title": "Get in Touch",
+            "text": "We value your feedback and would love to hear from you. If you have any questions, suggestions, or concerns, please don't hesitate to contact us via our contact form."
+          }
+        ]
+      },
+      {
+        "id": "LandingPage",
+        "title": "Find your Perfect Getaway ",
+        "searchbar":"citys , site name  ...",
+        
+        "fields": [
+          { "id": "restaurants", "label": "Restaurants", "imgUrl": "/Image/Restaurants.png", "type": "image" },
+          { "id": "nature", "label": "Outdoor & Nature", "imgUrl": "/Image/Nature.png", "type": "image" },
+          { "id": "landmarks", "label": "Landmarks & Attractions", "imgUrl": "/Image/Landmarks.png", "type": "image" },
+          { "id": "entertainment", "label": "Entertainment", "imgUrl": "/Image/Entertainment.png", "type": "image" },
+          { "id": "museums", "label": "Museums & Galleries", "imgUrl": "/Image/Museums.png", "type": "image" },
+          { "id": "shopping", "label": "Shopping & Markets", "imgUrl": "/Image/Shopping.png", "type": "image" }
+      ]
+      
+      },
+      { "id": "Home",
+      "title": "Seek, Experience, Enjoy with Spot Seeker! ",
+      "button":"Let the Journey Begin"
+        
+    }
+      
+      
+    ]
+  }
